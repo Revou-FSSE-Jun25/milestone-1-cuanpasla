@@ -31,6 +31,10 @@ This website is designed to showcase my portfolio, provide information about my 
 
 ## Instructions
 
+### Web Access
+Open in a Web Browser :
+`https://revou-fsse-jun25.github.io/milestone-1-cuanpasla/`
+
 ### Web Documentation
 ![/images/markdown-images/doc-markdown-halaman-atas.png](/images/markdown-images/doc-markdown-halaman-atas.png "Portfolio M. Nur Achwan Pasla")
 ![/images/markdown-images/doc-markdown-halaman-bawah.png](/images/markdown-images/doc-markdown-halaman-bawah.png "Portfolio M. Nur Achwan Pasla")
@@ -77,7 +81,7 @@ This website is designed to showcase my portfolio, provide information about my 
 
 10. The Footer section displays copyright information related to the website.
 
-### Cara Menjalankan Secara Lokal
+### How to run Locally
 1. Clone Repository :
 ```
 git clone https://github.com/Revou-FSSE-Jun25/milestone-1-cuanpasla.git
