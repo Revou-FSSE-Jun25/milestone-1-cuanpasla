@@ -532,7 +532,7 @@ td {
     display: flex;
 
     /* Background Images */
-    background-image: url("../images/css-images/background-contact.jpg");
+    background-image: url("/images/css-images/background-contact.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
