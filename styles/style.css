@@ -530,6 +530,12 @@ td {
     align-items: center;
     min-height: 100vh;
     display: flex;
+
+    background-image: url("images/css-images/background-contact.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 fieldset {
