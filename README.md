@@ -29,6 +29,7 @@ This website is designed to showcase my portfolio, provide information about my 
 - **Entities** – Reserved characters represented using special codes in HTML
 - **Semantic Tags** – HTML elements that carry meaningful structure and context
 - **Favicon** – A small icon associated with a website, typically displayed in the browser tab
+- **Background Image** - property specifies an image to use as the background of an element.
 - **Remix Icon** - A collection of open-source, neutrally styled system icons designed specifically for designers and developers.
 - **Keyframe Rule** - Used to control the steps in an animation sequence by defining CSS styles for points along the animation sequence
 ---
@@ -54,7 +55,7 @@ Open in a Web Browser :
 
 ![/images/markdown-images/doc-markdown-header-revou.png](/images/markdown-images/contact-page.png "Portfolio M. Nur Achwan Pasla")
 
-4. Next, the "Contact" page serves as a way for visitors to get in touch. It also includes several social media links for those who wish to connect further.
+4. Next, the "Contact" page serves as a way for visitors to get in touch. It also includes several social media links for those who wish to connect further with extras background-image.
 
 ![/images/markdown-images/doc-markdown-navbar-logo.png](/images/markdown-images/responsive-navbar.png "Portfolio M. Nur Achwan Pasla")
 
@@ -78,7 +79,7 @@ Open in a Web Browser :
 
 ![/images/markdown-images/doc-markdown-about-me-tag-details.png](/images/markdown-images/responsive-contact.png "Portfolio M. Nur Achwan Pasla")
 
-10. The "Contact" page is also designed to be responsive, adjusting to a column layout to suit mobile device displays.
+10. The "Contact" page is also designed to be responsive, adjusting to a column layout to suit mobile device displays with extras background-image.
 
 ![/images/markdown-images/doc-markdown-projects-section.png](/images/markdown-images/footer.png "Portfolio M. Nur Achwan Pasla")
 

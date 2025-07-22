@@ -531,17 +531,24 @@ td {
     min-height: 100vh;
     display: flex;
 
-    background-image: url("images/css-images/background-contact.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    /* Background Images */
+    background-image: url("/images/css-images/background-contact.jpg");
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#contact > h1 {
+    background: antiquewhite;
+    padding: 20px;
+    border-radius: 0.5rem;
 }
 
 fieldset {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
     padding: 20px 40px 10px 40px;
-    background: transparent;
+    background: antiquewhite;
     box-sizing: border-box;
     max-width: 800px;
     width: 100%;
