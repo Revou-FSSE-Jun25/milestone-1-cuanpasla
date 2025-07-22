@@ -16,7 +16,9 @@ This website is designed to showcase my portfolio, provide information about my 
 ## Technologies and tools used
 - **Form Tag** – Used to collect user input
 - **CSS3** – Modern and responsive styling
+- **Google Font** - Used to add Font-Family in CSS
 - **HTML5** – The fundamental structure of a web page
+- **Media Query** - A CSS technique introduced in CSS3
 - **Table Tag** – Used to organize data into rows and columns
 - **Div Tag** – A container element used to group HTML content
 - **Unordered List** – Defines a list of items in no particular order
@@ -27,6 +29,8 @@ This website is designed to showcase my portfolio, provide information about my 
 - **Entities** – Reserved characters represented using special codes in HTML
 - **Semantic Tags** – HTML elements that carry meaningful structure and context
 - **Favicon** – A small icon associated with a website, typically displayed in the browser tab
+- **Remix Icon** - A collection of open-source, neutrally styled system icons designed specifically for designers and developers.
+- **Keyframe Rule** - Used to control the steps in an animation sequence by defining CSS styles for points along the animation sequence
 ---
 
 ## Instructions
@@ -36,50 +40,49 @@ Open in a Web Browser :
 `https://revou-fsse-jun25.github.io/milestone-1-cuanpasla/`
 
 ### Web Documentation
-![/images/markdown-images/doc-markdown-halaman-atas.png](/images/markdown-images/doc-markdown-halaman-atas.png "Portfolio M. Nur Achwan Pasla")
-![/images/markdown-images/doc-markdown-halaman-bawah.png](/images/markdown-images/doc-markdown-halaman-bawah.png "Portfolio M. Nur Achwan Pasla")
+![/images/markdown-images/doc-markdown-halaman-atas.png](/images/markdown-images/home-page.png "Portfolio M. Nur Achwan Pasla")
 
-1. This section presents the overall appearance of the developed portfolio.
+1. This is the main page of the portfolio website, featuring a navigation bar that functions as a control panel to access different sections of the site. It also provides a brief introduction including the name and identity of the individual.
 
-![/images/markdown-images/doc-markdown-header.png](/images/markdown-images/doc-markdown-header.png "Portfolio M. Nur Achwan Pasla")
-![/images/markdown-images/doc-markdown-header-revou.png](/images/markdown-images/doc-markdown-header-revou.png "Portfolio M. Nur Achwan Pasla")
+![/images/markdown-images/doc-markdown-halaman-bawah.png](/images/markdown-images/about-page.png "Portfolio M. Nur Achwan Pasla")
 
-2. This part displays the text information contained in the header.
+2. The "About Me" page provides a more detailed overview of background and past experiences, as well as highlights various personal hobbies.
 
-![/images/markdown-images/doc-markdown-navbar-logo.png](/images/markdown-images/doc-markdown-navbar-logo.png "Portfolio M. Nur Achwan Pasla")
-![/images/markdown-images/doc-markdown-logo.png](/images/markdown-images/doc-markdown-logo.png "Portfolio M. Nur Achwan Pasla")
+![/images/markdown-images/doc-markdown-header.png](/images/markdown-images/projects-page.png "Portfolio M. Nur Achwan Pasla")
 
-3. The displayed logo serves as the main visual identity of the website.
+3. The "Projects" page showcases experience in handling various projects, along with documentation of the completed work.
 
-![/images/markdown-images/doc-markdown-navbar.png](/images/markdown-images/doc-markdown-navbar.png "Portfolio M. Nur Achwan Pasla")
+![/images/markdown-images/doc-markdown-header-revou.png](/images/markdown-images/contact-page.png "Portfolio M. Nur Achwan Pasla")
 
-4. The navigation bar functions to direct users to the corresponding page when a button is clicked.
+4. Next, the "Contact" page serves as a way for visitors to get in touch. It also includes several social media links for those who wish to connect further.
 
-![/images/markdown-images/doc-markdown-home-section.png](/images/markdown-images/doc-markdown-home-section.png "Portfolio M. Nur Achwan Pasla")
+![/images/markdown-images/doc-markdown-navbar-logo.png](/images/markdown-images/responsive-navbar.png "Portfolio M. Nur Achwan Pasla")
 
-5. This section is the Home area, which displays the full name and profile photo.
+5. This is the appearance of the navigation bar; when viewed on mobile devices, it adapts to a column layout.
 
-![/images/markdown-images/doc-markdown-about-me-section.png](/images/markdown-images/doc-markdown-about-me-section.png "Portfolio M. Nur Achwan Pasla")
+![/images/markdown-images/doc-markdown-logo.png](/images/markdown-images/responsive-home.png "Portfolio M. Nur Achwan Pasla")
 
-6. The About Me section contains information about educational background, hobbies, and relevant skills.
+6. The main page also adjusts to a column layout when viewed in mobile mode.
 
-![/images/markdown-images/doc-markdown-about-me-tag-details.png](/images/markdown-images/doc-markdown-about-me-tag-details.png "Portfolio M. Nur Achwan Pasla")
-![/images/markdown-images/doc-markdown-tag-details.png](/images/markdown-images/doc-markdown-tag-details.png "Portfolio M. Nur Achwan Pasla")
+![/images/markdown-images/doc-markdown-navbar.png](/images/markdown-images/responsive-about.png "Portfolio M. Nur Achwan Pasla")
 
-7. The Technical Skills button reveals a list of available skills when clicked.
+7. This is the appearance of the "About Me" page. Similar to previous sections, it is designed to be responsive and adjusts to a column layout when viewed on mobile devices.
 
-![/images/markdown-images/doc-markdown-projects-section.png](/images/markdown-images/doc-markdown-projects-section.png "Portfolio M. Nur Achwan Pasla")
+![/images/markdown-images/doc-markdown-home-section.png](/images/markdown-images/responsive-projects.png "Portfolio M. Nur Achwan Pasla")
 
-8. The Projects section provides an overview of various projects that have been completed.
+8. The "Projects" page is also equipped with a responsive layout, allowing the image arrangement—originally in three columns—to adapt into a single column when viewed on mobile devices.
 
-![/images/markdown-images/doc-markdown-contact-section.png](/images/markdown-images/doc-markdown-contact-section.png "Portfolio M. Nur Achwan Pasla")
+![/images/markdown-images/doc-markdown-about-me-section.png](/images/markdown-images/responsive-image.png "Portfolio M. Nur Achwan Pasla")
 
-9. The Contact section includes a form for sending messages, along with contact details such as social media links and WhatsApp number.
+9. he following is the display of images arranged in a single row.
 
-![/images/markdown-images/doc-markdown-footer.png](/images/markdown-images/doc-markdown-footer.png "Portfolio M. Nur Achwan Pasla")
-![/images/markdown-images/doc-markdown-copyright.png](/images/markdown-images/doc-markdown-copyright.png "Portfolio M. Nur Achwan Pasla")
+![/images/markdown-images/doc-markdown-about-me-tag-details.png](/images/markdown-images/responsive-contact.png "Portfolio M. Nur Achwan Pasla")
 
-10. The Footer section displays copyright information related to the website.
+10. The "Contact" page is also designed to be responsive, adjusting to a column layout to suit mobile device displays.
+
+![/images/markdown-images/doc-markdown-projects-section.png](/images/markdown-images/footer.png "Portfolio M. Nur Achwan Pasla")
+
+11. The Footer section displays copyright information related to the website.
 
 ### How to run Locally
 1. Clone Repository :
@@ -98,5 +101,3 @@ git clone https://github.com/Revou-FSSE-Jun25/milestone-1-cuanpasla.git
 
 ## Assignment Due Date
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/akoVEwkh)
-
-Test
