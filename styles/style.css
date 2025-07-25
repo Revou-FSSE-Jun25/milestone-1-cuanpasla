@@ -1,5 +1,4 @@
 /* Reset Font */
-@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Inter:700|Inter:400');
 
@@ -15,7 +14,6 @@ font-family: 'Inter';
 font-weight: 700;
 }
 
-html {font-size: 62,5%;} /* 16px */
 
 
 /* ++++++++++ CSS HEADER ++++++++++ */
@@ -267,7 +265,7 @@ abbr {
 }
 
 table {
-    margin: 0 50px;
+    margin: 20px 50px 0;
 }
 
 table, th, td {
@@ -334,7 +332,63 @@ td {
         font-size: 1.3rem;
     }
 }
+
 @media screen and (min-width: 1024px) {
+    .container-about-me {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .about-img img {
+        width: 30vw;
+    }
+
+    .article-about-me { 
+        margin: 10px 100px;
+    }
+
+    .article-about-me > p {
+        font-size: 1.2rem;
+    }
+
+    table {
+        margin: 10px 100px;
+    }
+
+    table, th, td {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container-about-me {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .about-img img {
+        margin-right: 100px;
+        width: 20vw;
+    }
+
+    .article-about-me { 
+        margin-left: 100px;
+    }
+
+    .article-about-me > p {
+        font-size: 1.3rem;
+    }
+
+    table {
+        margin-left: 100px;
+    }
+
+    table, th, td {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
     .container-about-me {
         flex-direction: row;
         align-items: center;
@@ -494,6 +548,68 @@ td {
 }
 
 @media screen and (min-width: 1024px) {
+    .container-projects1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article-projects {
+        margin: 0 50px
+    }
+
+    .article-projects > h2 {
+        font-size: 1.2rem;
+    }
+
+    .article-projects > ul {
+        font-size: 1.2rem;
+    }
+
+    .project-img1 img {
+        width: 35vh;
+    }
+
+    .container-projects2 {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+
+    .project-img2 img {
+        width: 24vh;
+        height: 18vh;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container-projects1 {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .article-projects > h2 {
+        font-size: 1.1rem;
+    }
+
+    .article-projects > ul {
+        font-size: 1.1rem;
+    }
+
+    .project-img1 img {
+        width: 35vh;
+    }
+
+    .container-projects2 {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+
+    .project-img2 img {
+        width: 33vh;
+        height: 26vh;
+    }
+}
+
+@media screen and (min-width: 2560px) {
     .container-projects1 {
         flex-direction: row;
         align-items: center;
